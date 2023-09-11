@@ -1,0 +1,14 @@
+.image-container{
+    height: 250px;
+    width: 250px;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    border: 2px solid goldenrod;
+}
+.gridSet{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
